@@ -329,6 +329,10 @@ tests/                    unittest 测试
 - HTTP 服务建议保持 loopback 绑定。如果绑定到非 loopback 地址，必须设置 `HTTP_CONTROL_TOKEN`。
 - 审批审计日志只记录 metadata，不保存命令正文或权限 payload。
 
+## 许可证
+
+MIT。见 [`LICENSE`](LICENSE)。
+
 ## 开发
 
 发布或提交前建议运行：

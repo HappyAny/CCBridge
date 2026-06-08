@@ -329,6 +329,10 @@ tests/                    unittest coverage
 - Keep the HTTP server on loopback unless you set `HTTP_CONTROL_TOKEN`.
 - Approval audit logs contain metadata only. They do not store command bodies or permission payloads.
 
+## License
+
+MIT. See [`LICENSE`](LICENSE).
+
 ## Development
 
 Before opening a pull request or publishing the repo, run:
