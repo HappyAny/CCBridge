@@ -1,0 +1,52 @@
+# Local secrets and machine-specific config
+config.local.py
+.env
+.env.*
+!.env.example
+!.env.sample
+auth.json
+*.token
+*.secret
+
+# Runtime state
+state.json
+*_state.json
+cc_bridge.lock
+*.lock
+.codex-tmp/
+downloads/
+
+# Logs
+*.log
+*.log.*
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build/package output
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor and OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows local launch artifacts
+*.lnk
