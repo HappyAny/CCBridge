@@ -50,3 +50,5 @@ desktop.ini
 
 # Windows local launch artifacts
 *.lnk
+
+/doc/plans/
